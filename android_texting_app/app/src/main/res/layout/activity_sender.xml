@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@color/white"
+        android:maxWidth= "400dp"
+        android:layout_margin="10dp">
+
+
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelinemess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.2"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelinetop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.02"
+            />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelinetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.96"/>
+
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelinetime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.9"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textsent"
+            app:layout_constraintEnd_toStartOf="@id/guidelinetext"
+            app:layout_constraintBottom_toTopOf="@id/timesent"
+            app:layout_constraintTop_toTopOf="@id/guidelinetop"
+            android:maxWidth="350dp"
+            android:layout_margin="8dp"
+            android:text="1231323123"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/timesent"
+            android:text="time"
+            app:layout_constraintTop_toBottomOf="@id/textsent"
+            app:layout_constraintRight_toRightOf="@id/guidelinetime"
+            />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/purple_200"
+    android:layout_margin="8sp"
+
+    >
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinemess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinetop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.02"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.04"/>
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textreceive"
+        android:layout_margin="10sp"
+        app:layout_constraintStart_toStartOf="@id/guidelinetext"
+        app:layout_constraintBottom_toTopOf="@id/timereceive"
+        app:layout_constraintTop_toTopOf="@id/guidelinetop"
+        android:text="1231323123"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timereceive"
+        android:text="time"
+        app:layout_constraintTop_toBottomOf="@id/textreceive"
+        app:layout_constraintLeft_toRightOf="@id/guidelinetime"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

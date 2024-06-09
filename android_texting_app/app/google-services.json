@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1080667985288",
+    "firebase_url": "https://projekt-bdfbc-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "projekt-bdfbc",
+    "storage_bucket": "projekt-bdfbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080667985288:android:97c6d1e2a2a2926bc1963d",
+        "android_client_info": {
+          "package_name": "com.example.a259317proj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080667985288-6gcehp6l5h0j9lb4o0u6it3h49boua68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLhTAW8nvk4T513BtC9i0iBaI6dsROgS8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080667985288-6gcehp6l5h0j9lb4o0u6it3h49boua68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
